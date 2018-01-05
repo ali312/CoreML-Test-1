@@ -12,6 +12,7 @@
 		ED947D3E1FFCD8040031CE70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED947D3C1FFCD8040031CE70 /* Main.storyboard */; };
 		ED947D401FFCD8040031CE70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED947D3F1FFCD8040031CE70 /* Assets.xcassets */; };
 		ED947D431FFCD8040031CE70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED947D411FFCD8040031CE70 /* LaunchScreen.storyboard */; };
+		ED947D4C1FFCDC1C0031CE70 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = ED947D4B1FFCDC1C0031CE70 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		ED947D3F1FFCD8040031CE70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED947D421FFCD8040031CE70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED947D441FFCD8040031CE70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED947D4B1FFCDC1C0031CE70 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		ED947D371FFCD8040031CE70 /* CoreMLTest1 */ = {
 			isa = PBXGroup;
 			children = (
+				ED947D4A1FFCDC090031CE70 /* MLModels */,
 				ED947D381FFCD8040031CE70 /* AppDelegate.swift */,
 				ED947D3A1FFCD8040031CE70 /* ViewController.swift */,
 				ED947D3C1FFCD8040031CE70 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				ED947D441FFCD8040031CE70 /* Info.plist */,
 			);
 			path = CoreMLTest1;
+			sourceTree = "<group>";
+		};
+		ED947D4A1FFCDC090031CE70 /* MLModels */ = {
+			isa = PBXGroup;
+			children = (
+				ED947D4B1FFCDC1C0031CE70 /* Inceptionv3.mlmodel */,
+			);
+			path = MLModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED947D3B1FFCD8040031CE70 /* ViewController.swift in Sources */,
+				ED947D4C1FFCDC1C0031CE70 /* Inceptionv3.mlmodel in Sources */,
 				ED947D391FFCD8040031CE70 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,7 +287,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ZN82UPUDUJ;
+				DEVELOPMENT_TEAM = 6KN952WR85;
 				INFOPLIST_FILE = CoreMLTest1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thelightprj.CoreMLTest1;
@@ -290,7 +302,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ZN82UPUDUJ;
+				DEVELOPMENT_TEAM = 6KN952WR85;
 				INFOPLIST_FILE = CoreMLTest1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thelightprj.CoreMLTest1;
